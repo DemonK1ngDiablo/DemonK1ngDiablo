@@ -1,0 +1,4 @@
+wait (2.3)
+while true do
+game:GetService('Players').LocalPlayer.Character.True:Destroy();
+end

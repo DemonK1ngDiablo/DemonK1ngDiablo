@@ -1,0 +1,43 @@
+while true do
+    game:GetService("Players").LocalPlayer.Character.True:Destroy();
+    end
+    
+    spawn(function()
+        repeat wait(.01)
+        until game:IsLoaded()
+        game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD")
+    
+        wait(0.01)
+        
+        function NDR()
+             Plr = game:GetService("Players").LocalPlayer
+          game.Workspace.Live[Plr.Name].True:destroy()  
+        end
+        NDR()
+    end)
+    
+
+local MOK = false
+    spawn(function()
+        wait(15)
+        repeat wait()
+            spawn(function()
+            while true do
+                game:GetService("Players").LocalPlayer.Character.True:Destroy();
+                end
+            end)
+                spawn(function()
+                    repeat wait(.01)
+                    until game:IsLoaded()
+                    game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD")
+                
+                    wait(0.01)
+                    
+                    function NDR()
+                         Plr = game:GetService("Players").LocalPlayer
+                      game.Workspace.Live[Plr.Name].True:destroy()  
+                    end
+                    NDR()
+                end)
+            until MOK == true
+        end)

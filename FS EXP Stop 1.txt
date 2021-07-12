@@ -1,0 +1,10 @@
+--[love Zaccby and my nigga shiko]----[made by zaccby and shuko mainly shuko tho]
+repeat wait()
+ until game:IsLoaded()
+   game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD")
+wait(0.1)
+
+function Shuko()
+     Plr = game:GetService('Players').LocalPlayer
+  game.Workspace.Live[Plr.Name].True:destroy()  
+end Shuko()

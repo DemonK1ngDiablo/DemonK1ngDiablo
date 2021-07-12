@@ -1,0 +1,18 @@
+while true do
+    game:GetService("Players").LocalPlayer.Character.True:Destroy();
+    end
+    
+    spawn(function()
+        repeat wait(.01)
+        until game:IsLoaded()
+        game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD")
+    
+        wait(0.01)
+        
+        function NDR()
+             Plr = game:GetService("Players").LocalPlayer
+          game.Workspace.Live[Plr.Name].True:destroy()  
+        end
+        NDR()
+    end)
+   

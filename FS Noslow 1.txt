@@ -1,0 +1,8 @@
+if game:IsLoaded() then wait()
+    while true do
+_G.NoSlowToggle = true
+while _G.NoSlowToggle == true do
+local action = game.Players.LocalPlayer.Character:WaitForChild("Action")
+if action then action:Destroy()
+end
+end
